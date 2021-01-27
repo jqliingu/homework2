@@ -1,0 +1,8 @@
+{
+  
+    "usingComponents": {},
+    "navigationBarTitleText": "分页",
+    "onReachBottomDistance":200,
+    "enablePullDownRefresh": true
+  
+}

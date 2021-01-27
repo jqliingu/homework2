@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view>
+    
+    <input name="input" placeholder="搜索课程"  class="search-box" bindinput="handleInput" />
+    <button style="margin-bottom:30rpx" bindtap="handleTap">🔍搜索　</button>
+    
+  </view>
+<view>
+  <block  wx:for="{{data}}" wx:key="view" >
+    <view class="kc">
+      <text>　课程名： {{item.name}}\n</text>
+      <text>　授课教师： {{item.teacher}}\n</text>
+      <text>　时间： {{item.create_time}}\n</text>
+      <text>　下载次数： {{item.download}}\n</text>
+    </view>
+  </block>
+</view>
+<view class="pagination">
+  <view class="i" wx:for="{{pp}}" wx:key="this" bindtap="handlePageChange" data-page="{{item}}">{{item}}</view>
+</view>

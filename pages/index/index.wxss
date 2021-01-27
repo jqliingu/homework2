@@ -1,0 +1,25 @@
+/**index.wxss**/
+.kc{
+  height:170rpx;
+  margin-bottom:30rpx;
+  margin-left: 3rpx;
+  /*background:orange;*/
+  border-color:rgb(143, 134, 134);
+  border-width: 2px;
+  border-style: groove;
+}
+.search-box{
+  border-color:rgb(143, 134, 134);
+  border-width: 2px;
+  border-style: solid;
+  margin-top: 16px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom:30rpx;
+}
+.pagination{
+  width:80%;
+  margin:auto;
+  margin-bottom:100px;
+  justify-content: space-around;
+}
